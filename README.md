@@ -52,6 +52,7 @@ The script will convert this to LRC format:
 📁 Output
 
 If you choose to export, an .lrc file will be created in the same directory as the script using your provided filename.
+
 ❗ Notes
 
   - Input JSON must be properly formatted, including valid numeric strings for "startTimeMs" and "endTimeMs".
