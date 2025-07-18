@@ -1,7 +1,7 @@
-🎵 JSON to LRC Converter
+##🎵 **JSON to LRC Converter**##
 
 This is a simple Python script that converts lyrics data from a JSON format (such as those used in transcription or lyrics APIs) into LRC format—a common format for timestamped lyrics used in karaoke players and media applications.
-📦 Features
+###📦 **Features**###
 
   - Converts JSON-based lyrics to LRC format
 
@@ -11,12 +11,12 @@ This is a simple Python script that converts lyrics data from a JSON format (suc
 
   - Option to export the LRC output as a .lrc file
 
-🛠 Requirements
+###🛠 **Requirements**###
 
     Python 3.x
 
 
-🚀 Usage
+###🚀 **Usage**###
 
 Run the script:
 
@@ -41,7 +41,7 @@ The script will convert this to LRC format:
 
     Choose whether to export the result as an .lrc file.
 
-🧠 How It Works
+###🧠 **How It Works**###
 
   convert_to_lrc(json_str): Parses the input JSON, extracts line-by-line lyrics and their timestamps, then formats them into the LRC structure.
 
@@ -49,16 +49,16 @@ The script will convert this to LRC format:
 
   The script interacts with the user via the command line and offers an export option.
 
-📁 Output
+###📁 **Output**###
 
 If you choose to export, an .lrc file will be created in the same directory as the script using your provided filename.
 
-❗ Notes
+###❗ **Notes**###
 
   - Input JSON must be properly formatted, including valid numeric strings for "startTimeMs" and "endTimeMs".
 
   - This script does not validate overlapping timestamps or incorrect logical sequences in lyrics lines.
 
-📝 License
+###📝 **License**###
 
 This project is open for any use and modification. No license required.
