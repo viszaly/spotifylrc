@@ -20,18 +20,19 @@ This is a simple Python script that converts lyrics data from a JSON format (suc
 
 Run the script:
 
-    python script_name.py
+    python main.py
 
 Enter the JSON string when prompted. Example format:
 
     {
       "lyrics": {
-    "lines": [
-      {"startTimeMs": "1000", "endTimeMs": "4000", "words": "Hello world"},
-      {"startTimeMs": "5000", "endTimeMs": "8000", "words": "How are you?"}
-    ]
+        "lines": [
+          {"startTimeMs": "1000", "endTimeMs": "4000", "words": "Hello world"},
+          {"startTimeMs": "5000", "endTimeMs": "8000", "words": "How are you?"}
+        ]
       }
     }
+
 
 The script will convert this to LRC format:
 
